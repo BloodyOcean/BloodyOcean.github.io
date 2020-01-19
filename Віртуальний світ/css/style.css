@@ -1,0 +1,124 @@
+body{
+  background-color: #244563;
+}
+a, h1, h2{
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.centered {
+  text-align: center; /*відцентровує текст*/
+}
+header{
+  height: auto;
+  background: #060b0d; /* Цвет фона */
+  font-family: 'Rubik Mono One', sans-serif;
+  border: 10px double #060b0d; /* Параметры границы */
+}
+h1{
+  text-align: center;
+  color: #e0f2ff;
+  right: 10px; /* Расстояние от правого края окна браузера */
+  margin: 0;
+  top: 100px; /* Расстояние сверху */
+}
+h2{
+  text-align: center;
+  color: #e0f2ff;
+  right: 10px; /* Расстояние от правого края окна браузера */
+  margin: 3;
+  top: 100px; /* Расстояние сверху */
+}
+#f {
+  position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 10px; /* Поля вокруг текста */
+  background: #39b54a; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+  background: #060b0d; /*колір заднього плану*/
+}
+#f i {
+  color: #4b674a;
+  font-size: 30px; /*размір шрифту */
+  padding: 20px; /*відступи навколо всього об'єекту'*/
+}
+#sun{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  padding:0px;
+  margin-left: 100px;
+  margin-right: 0%;
+  margin-top: 275px;
+  color: #4b674a;
+  font-size: 300px;
+  border-radius: 100%;
+}
+.gradient-icon {
+  background: radial-gradient(circle at 65% 15%, aqua, darkblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+#my_content{
+  width: 100%
+  height: 2000px;
+}
+#aria{
+  color: #4b674a;
+  font-size: 250px;
+  position: absolute;
+  animation: aria 8s infinite linear;
+  margin: 50px;
+}
+.gradient-icon_aria{
+  background: radial-gradient(circle at 65% 15%, #ff8585, #6e0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+#metallica{
+  color: #4b674a;
+  font-size: 250px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 50px;
+  animation: metallica 8s infinite linear;
+  margin-bottom: 100px;
+}
+.gradient-icon_metallica{
+  background: radial-gradient(circle at 65% 15%, #a1ff8a, #156900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+#megadeth{
+  color: #4b674a;
+  font-size: 250px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 600px;
+  margin-bottom: 100px;
+  animation: megadeth 8s infinite linear;
+}
+.gradient-icon_megadeth{
+  background: radial-gradient(circle at 65% 15%, #fffb96, #a19b02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+#planets{
+  margin-left: 200px;
+  margin-top: 60px;
+  width: 700px;
+	height: 850px;
+  animation: planets 8s infinite linear;
+}
+@keyframes planets {
+  transform-origin: center center;
+  from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
+}

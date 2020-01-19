@@ -1,0 +1,79 @@
+body{
+  background-color: #244563;
+}
+p, a, h1, h2{
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #e0f2ff;
+}
+.centered {
+  text-align: center; /*відцентровує текст*/
+}
+.back_but{
+  margin: 10px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid #060b0d;
+  border-bottom: 50px solid transparent;
+}
+.planet{
+  width: 200px;
+  margin-left: 25%;
+  height: 200px;
+  background: radial-gradient(circle at 65% 15%, #ff8585, #6e0000);
+  border-radius: 50%;
+  animation: shadow 1s infinite alternate;
+}
+.monster{
+  transition: transform .8s;
+  margin-top: 20px;
+}
+.monster:hover{
+  transform: rotate(45deg);
+}
+#f {
+  position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 10px; /* Поля вокруг текста */
+  background: #39b54a; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+  background: #060b0d; /*колір заднього плану*/
+}
+#f i {
+  color: #4b674a;
+  font-size: 30px; /*размір шрифту */
+  padding: 20px; /*відступи навколо всього об'єекту'*/
+}
+@keyframes shadow {
+  from {
+    box-shadow: 0 0 55px 10px black;
+  }
+  to {
+    box-shadow: 0 0 90px 20px white;
+  }
+}
+.planet2{
+  width: 200px;
+  margin-left: 25%;
+  height: 200px;
+  background: radial-gradient(circle at 65% 15%, #fffb96, #a19b02);
+  border-radius: 50%;
+  animation: shadow 1s infinite alternate;
+}
+.planet3{
+  width: 200px;
+  margin-left: 25%;
+  height: 200px;
+  background: radial-gradient(circle at 65% 15%, #a1ff8a, #156900);
+  border-radius: 50%;
+  animation: shadow 1s infinite alternate;
+}
+.planet4{
+  width: 200px;
+  margin-left: 25%;
+  height: 200px;
+  background: radial-gradient(circle at 65% 15%, aqua, darkblue);
+  border-radius: 50%;
+  animation: shadow 1s infinite alternate;
+}
